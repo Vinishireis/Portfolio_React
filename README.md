@@ -3,7 +3,7 @@
 Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido utilizando a popular biblioteca React. Ele oferece uma maneira fácil para desenvolvedores, designers e criativos exibirem seu trabalho, habilidades e conquistas de forma profissional e visualmente atraente. Com seu design responsivo e código limpo, o Reactfolio pode ser facilmente adaptado às necessidades e preferências individuais, tornando-se uma escolha ideal para quem deseja criar um portfólio online impressionante.
 
 <center>
-<img src="../Portfolio_React/image.png" alt="React Native Portfolio Vinishireis" />
+<img src="https://raw.githubusercontent.com/Vinishireis/Portfolio_React/refs/heads/main/image.png" alt="React Native Portfolio Vinishireis" />
 </center>
 
 Demonstração ao vivo aqui: <a href="#" target="_blank">React Portfolio Vinishireis</a>  
