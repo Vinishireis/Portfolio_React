@@ -1,89 +1,87 @@
 # Portfolio React Native
 
-Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
+Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido utilizando a popular biblioteca React. Ele oferece uma maneira fácil para desenvolvedores, designers e criativos exibirem seu trabalho, habilidades e conquistas de forma profissional e visualmente atraente. Com seu design responsivo e código limpo, o Reactfolio pode ser facilmente adaptado às necessidades e preferências individuais, tornando-se uma escolha ideal para quem deseja criar um portfólio online impressionante.
 
 <center>
-<img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" />
+<img src="../Portfolio_React/image.png" alt="React Native Portfolio Vinishireis" />
 </center>
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.tharindu.dev</a>
-<br/>
-Readme here: <a href="https://tharindu.dev/portfolio/reactfolio/" target="_blank">tharindu.dev/portfolio/reactfolio/</a>
+Demonstração ao vivo aqui: <a href="#" target="_blank">React Portfolio Vinishireis</a>  
+Leia o Readme aqui: <a href="#" target="_blank">Portfolio Readme Vinishireis</a>
 
--   [Features](#-features)
--   [Getting started](#-getting-started)
--   [Installation and Setup Instructions](#-installation-and-setup-instructions)
--   [Folder structure](#-folder-structure)
--   [Configurations](#-configurations)
+-   [Recursos](#-recursos)
+-   [Início Rápido](#-início-rápido)
+-   [Instalação e Configuração](#-instalação-e-configuração)
+-   [Estrutura de Pastas](#-estrutura-de-pastas)
+-   [Configurações](#-configurações)
 -   [Google Analytics](#-google-analytics)
--   [Building the React App](#-building-the-react-app)
+-   [Compilando o App React](#-compilando-o-app-react)
 -   [FAQ](#-faq)
--   [Contribution](#-contribution)
+-   [Contribuição](#-contribuição)
 
-## 📙 Features
+## 📙 Recursos
 
--   📖 Multi-Page Layout
-    -   Home
-    -   About
-    -   Projects
-    -   Articles
-    -   Contact
--   📱 Fully Responsive
--   🛠 Easy configurations
+-   📖 Layout com Múltiplas Páginas
+    -   Início
+    -   Sobre
+    -   Projetos
+    -   Artigos
+    -   Contato
+-   📱 Totalmente Responsivo
+-   🛠 Fácil configuração
 
-## 📚 Getting started
+## 📚 Início Rápido
 
-Clone down this repository. You will need `NodeJS` and `git` installed globally on your machine.
+Clone este repositório. Você precisará ter o `NodeJS` e o `git` instalados globalmente em sua máquina.
 
-## 🛠 Installation and Setup Instructions
+## 🛠 Instalação e Configuração
 
-1. Installation: `npm install`
+1. Instalação: `npm install`
 
-2. Run the project: `npm start`
+2. Executar o projeto: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+Isso executa o app no modo de desenvolvimento.  
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador. A página será recarregada se você fizer edições.
 
-## 📁 Folder structure
+## 📁 Estrutura de Pastas
 
--   `/public`: publicly accessible contents (ex: images, media).
--   `/src`: all the components used in this project.
-    -   `/src/components/`: each reusable components of each pages.
-    -   `/src/data`: configurations of the web app.
-    -   `/src/pages`: pages that include in the web app.
+-   `/public`: conteúdo acessível publicamente (ex: imagens, mídia).
+-   `/src`: todos os componentes usados neste projeto.
+    -   `/src/components/`: componentes reutilizáveis de cada página.
+    -   `/src/data`: configurações do aplicativo web.
+    -   `/src/pages`: páginas incluídas no aplicativo web.
 
-## ⚙️ Configurations
+## ⚙️ Configurações
 
-Since this is a public and open source project, you can make any changes to it. If you are a ReactJS developer you can do it easily. But if you are a beginner, I have extracted the configurable data into a single directory, so you can edit the files in that directory to configure the entire web application.
+Como este é um projeto público e de código aberto, você pode fazer qualquer alteração. Se você for um desenvolvedor ReactJS, pode fazer isso facilmente. Mas se você for iniciante, os dados configuráveis foram extraídos para um único diretório, permitindo que você edite os arquivos neste diretório para configurar todo o aplicativo.
 
-Directory: `/src/data/`
+Diretório: `/src/data/`
 
 -   `user.js`
 
-    From this you can change the content of each page of the web application.
+    Aqui você pode alterar o conteúdo de cada página do aplicativo.
 
 -   `articles.js`
 
-    From this you can add your articles to the web application.
+    Aqui você pode adicionar seus artigos ao aplicativo.
 
-    Instructions:
+    Instruções:
 
-    -   Add new article
+    -   Adicionar novo artigo:
 
-        1. Create a new function starts with `article_`. For example you can add new function named `article_3`.
+        1. Crie uma nova função que comece com `article_`. Por exemplo, você pode criar uma função chamada `article_3`.
 
-        2. Then add the data accordingly.
+        2. Adicione os dados de acordo.
 
-            - Add `<React.Fragment>` tag and it's closing tags in body.
-            - In React there has no keyword `class`, so you should use `className` to define html classes.
+            - Adicione a tag `<React.Fragment>` e suas tags de fechamento no corpo.
+            - No React, não existe a palavra-chave `class`, então use `className` para definir classes HTML.
 
             ```js
             function article_3() {
                 return {
-                    date: "7 May 2023",
-                    title: "The Benefits of Cloud Computing",
-                    description: "Why businesses are turning to the cloud.",
+                    date: "7 de Maio de 2023",
+                    title: "Os Benefícios da Computação em Nuvem",
+                    description: "Por que as empresas estão migrando para a nuvem.",
                     style: `
                             .random-image {
                                 align-self: center;
@@ -94,11 +92,11 @@ Directory: `/src/data/`
                         <React.Fragment>
                             <div className="article-content">
                                 <div className="paragraph">
-                                    Content of article 1
+                                    Conteúdo do artigo 1
                                 </div>
                                 <img
                                     src="https://picsum.photos/200/300"
-                                    alt="random"
+                                    alt="aleatório"
                                     className="random-image"
                                 />
                             </div>
@@ -108,7 +106,7 @@ Directory: `/src/data/`
             }
             ```
 
-        3. In the last lines you will see an array to which you need to add your new `articles` function.
+        3. Nas últimas linhas, você verá um array ao qual precisa adicionar sua nova função `articles`.
 
             ```js
             const myArticles = [article_1, article_2, article_3];
@@ -116,38 +114,39 @@ Directory: `/src/data/`
 
 -   `seo.js`
 
-    The SEO.js file is a module that contains an array of objects, with each object representing metadata for a specific page of a React website. The purpose of this file is to centralize and manage the SEO (Search Engine Optimization) information for different pages.
+    O arquivo SEO.js é um módulo que contém um array de objetos, com cada objeto representando os metadados para uma página específica de um site React. O propósito deste arquivo é centralizar e gerenciar as informações de SEO (Otimização para Motores de Busca) para diferentes páginas.
 
-    Each object in the SEO array has the following properties:
+    Cada objeto no array SEO tem as seguintes propriedades:
 
-    `page`: Represents the page name or identifier. It helps in mapping the SEO data to the appropriate page.
+    `page`: Representa o nome ou identificador da página. Ele ajuda a mapear os dados de SEO para a página apropriada.
 
-    `title`: Specifies the title of the page. This title is typically displayed in the browser's title bar and is an important element for search engines.
+    `title`: Especifica o título da página, exibido na barra de título do navegador e sendo um elemento importante para os motores de busca.
 
-    `description`: Provides a concise and informative description of the page content. This description is often displayed in search engine results and can greatly influence click-through rates.
-    keywords: Contains an array of keywords relevant to the page's content. Keywords can help search engines understand the topics covered on the page and can impact its visibility in search results.
-    By storing the SEO information in the SEO.js file, you can easily manage and update the metadata for different pages of your React website. This approach allows you to keep the SEO data separate from the components and reuse it across the application, ensuring consistent and optimized metadata for each page.
+    `description`: Fornece uma descrição concisa e informativa do conteúdo da página, muitas vezes exibida nos resultados dos motores de busca, podendo influenciar as taxas de cliques.
 
-    Example:
+    `keywords`: Contém um array de palavras-chave relevantes para o conteúdo da página, ajudando os motores de busca a entender os tópicos abordados e impactando a visibilidade nos resultados de busca.
+
+    Armazenando as informações de SEO no arquivo SEO.js, você pode gerenciar facilmente os metadados para diferentes páginas do seu site React, garantindo consistência e otimização.
+
+    Exemplo:
 
     ```js
     const SEO = [
         {
             page: "home",
-            description:
-                "I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-            keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+           description:
+			"Desenvolvi uma base sólida em desenvolvimento web através da minha especialização em sistemas de internet. Ao longo dos anos, adquiri experiência com diversas linguagens e tecnologias, como MySQL, Java, JavaScript, HTML, CSS e mais. Muitos dos projetos nos quais contribuí estão disponíveis para revisão e colaboração. Acredito no poder do conhecimento compartilhado e estou sempre aberto a feedback e sugestões para melhoria. Se estiver interessado em algum dos meus trabalhos, sinta-se à vontade para explorar o código e oferecer suas ideias. Estou sempre ansioso para colaborar e aprender com outros.",
         },
     ];
     ```
 
 -   `styles.css`
 
-    From this you can change the font colors and font families of the web application.
+    Aqui você pode alterar as cores e fontes do aplicativo web.
 
     ```css
     :root {
-        /* ------- colors ------- */
+        /* ------- cores ------- */
         --primary-color: #27272a;
         --secondary-color: #65656d;
         --tertiary-color: #acacb4;
@@ -155,7 +154,7 @@ Directory: `/src/data/`
         --link-color: #14b8a6;
         /* ---------------------- */
 
-        /* ------- fonts ------- */
+        /* ------- fontes ------- */
         --primary-font: "Heebo", sans-serif;
         --secondary-font: "Roboto", sans-serif;
         /* --------------------- */
@@ -164,35 +163,35 @@ Directory: `/src/data/`
 
 ## 📈 Google Analytics
 
-Add your Google Analytics 4 MEASUREMENT ID to `/src/data/tracking.js`.
+Adicione seu ID de MEDIÇÃO do Google Analytics 4 em `/src/data/tracking.js`.
 
-How to find the Google Analytics 4 MEASUREMENT ID ?
+Como encontrar o ID de medição do Google Analytics 4?
 
-[https://support.google.com/analytics/answer/9539598?hl=en](https://support.google.com/analytics/answer/9539598?hl=en)
+[https://support.google.com/analytics/answer/9539598?hl=pt](https://support.google.com/analytics/answer/9539598?hl=pt)
 
-## 🚀 Building the React App
+## 🚀 Compilando o App React
 
-To build the React app, you can use the `npm run build` command. This will create a production-ready build of your app in the `build/` directory.
+Para compilar o app React, você pode usar o comando `npm run build`. Isso criará uma build pronta para produção do seu app no diretório `build/`.
 
-Here are the steps to follow:
+Aqui estão os passos a seguir:
 
-1. Open a terminal window and navigate to the root directory of your React app.
-2. Run the `npm run build` command to create a production build of your app. This will generate a static bundle of your app in the `build/` directory.
-3. Copy the contents of the `build/` directory to your server's public directory. You can do this using an FTP client or by running a command like `scp` to transfer the files to your server. Make sure to replace `example.com` and `/var/www/html` with your server's domain name and public directory, respectively:
+1. Abra o terminal e navegue até o diretório raiz do seu app React.
+2. Execute o comando `npm run build` para criar uma build de produção. Isso gerará um pacote estático no diretório `build/`.
+3. Copie o conteúdo do diretório `build/` para o diretório público do seu servidor. Você pode fazer isso usando um cliente FTP ou executando um comando como `scp` para transferir os arquivos para o servidor. Substitua `example.com` e `/var/www/html` pelo nome de domínio e diretório público do seu servidor, respectivamente:
 
     ```bash
     scp -r build/* user@example.com:/var/www/html
     ```
 
-4. Your portfolio app should now be accessible from your server's domain name. You can verify this by opening a web browser and navigating to http://example.com (replace example.com with your server's domain name).
+4. Seu aplicativo de portfólio React agora estará acessível pelo nome de domínio do seu servidor. Você pode verificar isso abrindo um navegador e navegando para http://example.com (substitua example.com pelo nome de domínio do seu servidor).
 
-That's it! Your React portfolio app should now be up and running on your server. Note that you may need to configure your server's web server (e.g., Apache or Nginx) to serve the index.html file in the build/ directory as the default page for your domain.
+Isso é tudo! Seu app de portfólio React agora estará rodando no seu servidor. Note que pode ser necessário configurar o servidor web (por exemplo, Apache ou Nginx) para servir o arquivo index.html no diretório build como a página padrão do seu domínio.
 
 ## 🤔 FAQ
 
-**Q1. Subpages can only be accessed through links on the homepage or navigation bar, but those pages are not accessible through direct links.**
+**P1. As subpáginas só podem ser acessadas através de links na página inicial ou na barra de navegação, mas essas páginas não estão acessíveis através de links diretos.**
 
-If you are using Apache as your web server, you can insert this into your .htaccess file:
+Se você estiver usando o Apache como seu servidor web, pode inserir o seguinte no seu arquivo .htaccess:
 
 ```c
 <IfModule mod_rewrite.c>
@@ -200,12 +199,14 @@ If you are using Apache as your web server, you can insert this into your .htacc
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
+  Rewrite
+
+Cond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
 </IfModule>
 ```
 
-## 🌱 Contribution
+## 🌱 Contribuição
 
-If you have any suggestions on what to improve in Reactfolio and would like to share them, feel free to leave an issue or fork project to implement your own ideas
+Se você tiver sugestões sobre o que melhorar no Reactfolio e quiser compartilhá-las, sinta-se à vontade para deixar uma issue ou fazer um fork do projeto para implementar suas próprias ideias.
