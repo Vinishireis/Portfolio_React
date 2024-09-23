@@ -11,7 +11,7 @@ import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
-const Projects = () => {
+const Projetos = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -21,7 +21,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`projects | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -32,31 +32,30 @@ const Projects = () => {
 			<div className="page-content">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
-					<div className="projects-logo-container">
+					<div className="projetos-logo-container">
 						<div className="projects-logo">
 							<Logo width={46} />
 						</div>
 					</div>
 					<div className="projects-container">
-						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+						<div className="title projetos-title">
+							Coisas que fiz tentando deixar minha marca na programação.
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							Trabalhei em uma variedade de projetos ao longo dos anos
+							e estou orgulhoso do progresso que fiz. Muitos desses
+							projetos são de código aberto e estão disponíveis para
+							outros explorarem e contribuírem. Se você estiver
+							interessado em algum dos projetos em que trabalhei,
+							sinta-se à vontade para conferir o código e sugerir
+							qualquer melhoria ou aprimoramento que você tenha em
+							mente. Colaborar com outros é uma ótima maneira de
+							aprender e crescer, e estou sempre aberto a novas ideias
+							e feedback.
 						</div>
 
-						<div className="projects-list">
+						<div className="projects-lista">
 							<AllProjects />
 						</div>
 					</div>
@@ -69,4 +68,4 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default Projetos;

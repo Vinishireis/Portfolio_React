@@ -2,36 +2,36 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Sou um desenvolvedor frontend com conhecimento em React. Tenho experiência na construção de aplicações web, utilizando diversos frameworks e tecnologias.",
+		keywords: ["Vinishireis", "Vinícius Nishimura", "Vinishireis N"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Sou um desenvolvedor frontend com experiência em React Native.",
+		keywords: ["Vinishireis", "Vinícius Nishimura", "Vinishireis N"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Coletânea cronológica de meus pensamentos detalhados sobre programação, liderança, design de produto e mais.",
+		keywords: ["Vinishireis", "Vinícius Nishimura", "Vinishireis N"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Trabalhei em uma variedade de projetos ao longo dos anos e tenho orgulho do progresso que fiz. Muitos desses projetos são open-source e estão disponíveis para outros explorarem e contribuírem.",
+		keywords: ["Vinishireis", "Vinícius Nishimura", "Vinishireis N"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Se você estiver interessado em colaborar em um projeto, fique à vontade para entrar em contato comigo. Estou sempre aberto a novas ideias e oportunidades.",
+		keywords: ["Vinishireis", "Vinícius Nishimura", "Vinishireis N"],
 	},
 ];
 

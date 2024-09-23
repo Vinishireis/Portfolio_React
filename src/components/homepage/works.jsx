@@ -10,33 +10,34 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work"
+				title="Formação"
 				body={
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/10/centro-paula-souza-logo.svg"
+								alt="curso técnico"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Curso Técnico</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Técnico em Informática para Internet
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">Concluído</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="https://www.fecap.br/files/icon/svg/logo-fecap-verde.svg"
+								alt="FECAP"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">FECAP</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Graduação em Ciências da Computação
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<br/>
+							<div className="work-duration"> Cursando</div>
 						</div>
 					</div>
 				}

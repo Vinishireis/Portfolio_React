@@ -13,70 +13,78 @@ const INFO = {
 		stackoverflow: "https://stackoverflow.com/users/23758668/vinicius-nishimura",
 		twitter: "https://x.com/NishimuraReis?t=EJQD0z4kGsp7_GLeoBkGKw&s=09"
 	},
-
-	homepage: {
-		title: "Full-stack web and mobile app developer.",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+"homepage": {
+		"title": "Desenvolvedor Full-stack de aplicativos web e mobile.",
+		"description": 
+			"Sou um desenvolvedor backend com expertise em Node.js. Tenho experiência na criação de aplicativos web escaláveis, seguros e confiáveis, utilizando vários frameworks e tecnologias. Gosto de resolver problemas complexos e aprender novas habilidades. Sou apaixonado por criar código de alta qualidade, seguindo as melhores práticas e os padrões da indústria. Estou sempre em busca de novos desafios e oportunidades para crescer como desenvolvedor."
 	},
 
-	about: {
-		title: "Olá sou Vinícius Nishimura Reis, sou desenvolvedor WEB / Mobile",
-		description:
-			"I've developed a solid foundation in web development through my specialization in internet systems. Over the years, I've gained experience working with various programming languages and technologies like MySQL, Java, JavaScript, HTML, CSS, and more. Many of the projects I've contributed to are available for review and collaboration. I believe in the power of shared knowledge and am always open to feedback and suggestions for improvement. If you're interested in any of my work, feel free to explore the code and offer insights. I'm always eager to collaborate and grow through learning from others.",
+	"about": {
+		"title": "Olá, sou Vinícius Nishimura Reis, desenvolvedor WEB / Mobile.",
+		"description": 
+			"Desenvolvi uma base sólida em desenvolvimento web através da minha especialização em sistemas para internet. Ao longo dos anos, ganhei experiência trabalhando com diversas linguagens de programação e tecnologias como MySQL, Java, JavaScript, HTML, CSS e mais. Muitos dos projetos em que contribuí estão disponíveis para revisão e colaboração. Acredito no poder do conhecimento compartilhado e estou sempre aberto a feedbacks e sugestões de melhoria. Se estiver interessado em algum dos meus trabalhos, sinta-se à vontade para explorar o código e oferecer insights. Estou sempre disposto a colaborar e aprender com outros."
 	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+	"articles": {
+		"title": "Sou apaixonado por expandir os limites do que é possível e inspirar a próxima geração de inovadores.",
+		"description": 
+			"Coletânea cronológica dos meus pensamentos de longo formato sobre programação, liderança, design de produtos e mais."
 	},
 
 	projects: [
 		{
-			title: "Projeto Vita Activa",
+			title: "Portfólio em React",
 			description:
-				"Este aplicativo foi desenvolvido com o objetivo de fornecer serviços fictícios nas áreas de Web Design, Desenvolvimento Mobile e Design Gráfico. Ele inclui várias funcionalidades, como a exibição de serviços em uma lista, a criação de uma barra de menu e a integração de cores específicas para o tema.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido utilizando a popular biblioteca React. Ele oferece uma maneira fácil para desenvolvedores, designers e criativos exibirem seu trabalho, habilidades e conquistas de forma profissional e visualmente atraente.",
+			logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
 			linkText: "Visualizar esse Projeto",
-			link: "https://github.com/Vinishireis/OnDev_App_React_Project",
+			link: "https://github.com/Vinishireis/Portfolio_React",
 		},
 
 		{
-			title: "Project 2",
+			title: "Vita Activa",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Vita Activa é um projeto de saúde preditiva desenvolvido em React Native, com o objetivo de utilizar dados e inteligência para monitorar e prever condições de saúde. A plataforma oferece uma interface intuitiva e acessível para que os usuários possam acompanhar métricas relacionadas ao bem-estar, permitindo a detecção precoce de problemas e a promoção de hábitos mais saudáveis. O projeto visa integrar tecnologias móveis para fornecer soluções personalizadas e preventivas, melhorando a qualidade de vida por meio de uma abordagem proativa na saúde.",
+				logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
+				linkText: "Projeto em Desenvolvimento",
+			link: "https://github.com/Vinishireis/Vita_Activa_React_Native",
 		},
 
 		{
-			title: "Project 3",
+			title: "AdminHub Dashboard",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"AdminHub Dashboard é um design de painel elegante e moderno criado usando HTML, CSS e JavaScript. Este repositório contém o código-fonte do painel AdminHub.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "Visualizar esse projeto",
+			link: "https://github.com/Vinishireis/DashBoard_Responsive",
 		},
 
 		{
-			title: "Project 4",
+			title: "Login/SignUp Screen",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Este projeto é um aplicativo mobile simples desenvolvido em Flutter, que implementa telas de Login e Cadastro (SignUp). Ele foi projetado para fornecer uma interface intuitiva e funcional, permitindo que os usuários façam login em suas contas ou se registrem com facilidade.",
+			logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/social%20icons/flutter.svg",
+			linkText: "Visualizar esse projeto",
+			link: "https://github.com/Vinishireis/SignUp-And-Login-Screen-Mobile",
 		},
 
 		{
-			title: "Project 5",
+			title: " Payment Card",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Payment Card feita utilizando HTML, CSS e JavaScript. O design do Payment Card é totalmente responsivo, garantindo uma experiência fluida em diferentes tamanhos de tela.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
+			linkText: "Visualizar esse projeto",
+			link: "https://github.com/Vinishireis/Payment_Card",
 		},
+
+		{
+			title: "Glowy Hover Effects",
+			description: 
+			"Efeitos Glowy Hover referem-se a um conjunto de melhorias visuais aplicadas a elementos em uma página da web ou interface do usuário quando um usuário passa o mouse sobre eles. Esses efeitos são alcançados através da manipulação de propriedades CSS (Cascading Style Sheets) e às vezes envolvem a integração de JavaScript para um comportamento mais dinâmico.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
+			linkText: "Visualizar esse projeto",
+			link: "https://github.com/Vinishireis/Glowy-Hover-Effects",
+		}
 	],
 };
 

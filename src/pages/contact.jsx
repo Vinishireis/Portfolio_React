@@ -21,7 +21,7 @@ const Contact = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Contact | ${INFO.main.title}`}</title>
+				<title>{`contact | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -40,25 +40,21 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Formas de se Conectar Comigo
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
+							Obrigado pelo seu interesse em entrar em contato
+							comigo. Aprecio seus comentários, perguntas e
+							sugestões. Se você tiver uma pergunta ou comentário
+							específico, sinta-se à vontade para me enviar um e-mail
+							diretamente para&nbsp;
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
+							Se
+							você preferir se conectar nas redes sociais, pode me
+							encontrar no{" "}
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -66,10 +62,10 @@ const Contact = () => {
 							>
 								{INFO.socials.instagram}
 							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+							. Eu posto atualizações regulares e interajo com
+							meus seguidores por lá, então não hesite em entrar
+							em contato. Obrigado mais uma vez pelo seu
+							interesse, e estou ansioso para ouvir de você!
 						</div>
 					</div>
 

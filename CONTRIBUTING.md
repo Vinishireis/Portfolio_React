@@ -1,43 +1,42 @@
-Contributing Guidelines
+Diretrizes de Contribuição
 
-Thank you for your interest in contributing to our project! We welcome contributions from everyone. By participating in this project, you agree to abide by the following guidelines:
+Obrigado pelo seu interesse em contribuir para o nosso projeto! Agradecemos contribuições de todos. Ao participar deste projeto, você concorda em seguir as diretrizes abaixo:
 
-Code of Conduct:
-Please review and adhere to our Code of Conduct, which establishes a welcoming and inclusive environment for all contributors. 
+Código de Conduta:  
+Por favor, revise e siga nosso Código de Conduta, que estabelece um ambiente acolhedor e inclusivo para todos os colaboradores.
 
-Types of Contributions:
-We welcome different types of contributions, including but not limited to:
+Tipos de Contribuições:  
+Aceitamos diferentes tipos de contribuições, incluindo, mas não se limitando a:
 
-- Bug fixes
-- New features or enhancements
-- Documentation improvements
-- Test cases
-- Translations
-- Feedback and suggestions
+- Correções de bugs  
+- Novos recursos ou melhorias  
+- Melhorias na documentação  
+- Casos de teste  
+- Traduções  
+- Feedback e sugestões  
 
-Getting Started:
-To get started with contributing, follow these steps:
+Começando:  
+Para começar a contribuir, siga estas etapas:
 
-1. Fork the repository and clone it to your local machine.
-2. Install the necessary dependencies.
-3. Create a new branch for your contribution.
-4. Make your changes or additions.
-5. Run tests and ensure that everything is working as expected.
-6. Commit your changes with a clear and descriptive commit message.
-7. Push your changes to your forked repository.
-8. Submit a pull request (PR) to our main repository, clearly explaining the purpose and details of your contribution.
+1. Faça um fork do repositório e clone-o em sua máquina local.  
+2. Instale as dependências necessárias.  
+3. Crie um novo branch para sua contribuição.  
+4. Faça suas alterações ou adições.  
+5. Execute os testes e certifique-se de que tudo está funcionando como esperado.  
+6. Faça um commit das suas alterações com uma mensagem clara e descritiva.  
+7. Envie suas alterações para o seu repositório fork.  
+8. Envie uma pull request (PR) para o nosso repositório principal, explicando claramente o propósito e os detalhes da sua contribuição.
 
-Code Style and Standards:
-Please ensure that your code adheres to our coding style and standards. Review our style guide and follow the established conventions for formatting, naming, and documentation.
+Estilo e Padrões de Código:  
+Certifique-se de que seu código esteja em conformidade com nosso estilo de codificação e padrões. Revise nosso guia de estilo e siga as convenções estabelecidas para formatação, nomenclatura e documentação.
 
-Documentation:
-Update relevant documentation to reflect your changes. This includes README files, code comments, and any other supporting documentation.
+Documentação:  
+Atualize a documentação relevante para refletir suas alterações. Isso inclui arquivos README, comentários no código e qualquer outra documentação de suporte.
 
-Issue Reporting:
-If you encounter any bugs or issues, please submit a detailed bug report, including steps to reproduce and any relevant information. You can also search for existing issues and contribute to their resolution.
+Relato de Problemas:  
+Se você encontrar algum bug ou problema, envie um relatório de erro detalhado, incluindo etapas para reproduzir e qualquer informação relevante. Você também pode procurar por problemas existentes e contribuir para sua resolução.
 
-Community Feedback:
-We value feedback and suggestions from the community. Join our discussion forums, participate in conversations, and share your ideas for improving the project.
+Feedback da Comunidade:  
+Valorizamos o feedback e as sugestões da comunidade. Participe de nossos fóruns de discussão, participe das conversas e compartilhe suas ideias para melhorar o projeto.
 
-Thank you for your contributions and for helping make this project better!
-
+Obrigado por suas contribuições e por ajudar a melhorar este projeto!
