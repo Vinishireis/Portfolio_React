@@ -26,7 +26,7 @@ const INFO = {
 	},
 
 	"articles": {
-		"title": "Sou apaixonado por expandir os limites do que é possível e inspirar a próxima geração de inovadores.",
+		"title": "Sou um programador que sempre busca novas soluções para grande e pequenos projetos.",
 		"description": 
 			"Coletânea cronológica dos meus pensamentos de longo formato sobre programação, liderança, design de produtos e mais."
 	},
