@@ -14,28 +14,55 @@ const INFO = {
 		twitter: "https://x.com/NishimuraReis?t=EJQD0z4kGsp7_GLeoBkGKw&s=09"
 	},
 "homepage": {
-		"title": "Desenvolvedor Full-stack de aplicativos web e mobile.",
-		"description": 
-			"Sou um desenvolvedor backend com expertise em Node.js. Tenho experiência na criação de aplicativos web escaláveis, seguros e confiáveis, utilizando vários frameworks e tecnologias. Gosto de resolver problemas complexos e aprender novas habilidades. Sou apaixonado por criar código de alta qualidade, seguindo as melhores práticas e os padrões da indústria. Estou sempre em busca de novos desafios e oportunidades para crescer como desenvolvedor."
-	},
+    "title": "Desenvolvedor Full-Stack apaixonado por criar experiências web e mobile.",
+    "description": 
+        "Sou desenvolvedor backend especializado em Node.js, criando aplicativos escaláveis e seguros. Gosto de resolver desafios e aprender novas tecnologias. Vamos trocar ideias!"
+},
 
-	"about": {
-		"title": "Olá, sou Vinícius Nishimura Reis, desenvolvedor WEB / Mobile.",
-		"description": 
-			"Desenvolvi uma base sólida em desenvolvimento web através da minha especialização em sistemas para internet. Ao longo dos anos, ganhei experiência trabalhando com diversas linguagens de programação e tecnologias como MySQL, Java, JavaScript, HTML, CSS e mais. Muitos dos projetos em que contribuí estão disponíveis para revisão e colaboração. Acredito no poder do conhecimento compartilhado e estou sempre aberto a feedbacks e sugestões de melhoria. Se estiver interessado em algum dos meus trabalhos, sinta-se à vontade para explorar o código e oferecer insights. Estou sempre disposto a colaborar e aprender com outros."
-	},
+"about": {
+    "title": "Oi, sou Vinícius Nishimura Reis, desenvolvedor Web e Mobile.",
+    "description": 
+        "Com formação em sistemas para internet, trabalho com tecnologias como MySQL, Java, JavaScript, HTML, CSS e mais. Sempre aberto a novas ideias e feedbacks. Vamos compartilhar conhecimento!"
+},
 
-	"articles": {
-		"title": "Sou um programador que sempre busca novas soluções para grande e pequenos projetos.",
-		"description": 
-			"Coletânea cronológica dos meus pensamentos de longo formato sobre programação, liderança, design de produtos e mais."
-	},
+"articles": {
+    "title": "Sempre buscando soluções criativas para projetos de todos os tamanhos.",
+    "description": 
+        "Aqui compartilho meus pensamentos sobre programação, design e liderança. Bora trocar ideias sobre tecnologia?"
+},
 
 	projects: [
 		{
+			title: "Calculadora Comercial Khipo",
+			description:
+				"Calculadora Comercial Khipo é um projeto de calculadora comercial desenvolvido em React Native.",
+			logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHb1nct5EXTQg/company-logo_200_200/company-logo_200_200/0/1630572992857?e=2147483647&v=beta&t=4_3i2JkgkBtQBrM7yGEtl97TsGv8kbdKkpkr2EQd4dw",
+			linkText: "Visualizar esse Projeto",
+			link: "https://github.com/Vinishireis/Projeto_Khipo",
+		},
+
+		{
+			title: "Dash Horizon",
+			description:
+				"Dash Horizon é um jogo endless runner desenvolvido em Unity pelo alunos Marcos Hiroshi e Vinícius Nishimura Reis, alunos da FECAP do curso Bacharelado em Ciencias da Computação.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1200px-Unity_Technologies_logo.svg.png",
+			linkText: "Visualizar esse Projeto",
+			link: "https://github.com/Vinishireis/Dash_Horizon",
+		},
+
+		{
+			title: "OnDev React Native Project",
+			description:
+				"Este aplicativo foi desenvolvido com o objetivo de fornecer serviços fictícios nas áreas de Web Design, Desenvolvimento Mobile e Design Gráfico.",
+				logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
+				linkText: "Visualizar esse Projeto",
+			link: "https://github.com/Vinishireis/OnDev_App_React_Project",
+		},
+
+		{
 			title: "Portfólio em React",
 			description:
-				"Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido utilizando a popular biblioteca React. Ele oferece uma maneira fácil para desenvolvedores, designers e criativos exibirem seu trabalho, habilidades e conquistas de forma profissional e visualmente atraente.",
+				"Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido utilizando a popular biblioteca React.",
 			logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
 			linkText: "Visualizar esse Projeto",
 			link: "https://github.com/Vinishireis/Portfolio_React",
@@ -44,7 +71,7 @@ const INFO = {
 		{
 			title: "Vita Activa",
 			description:
-				"Vita Activa é um projeto de saúde preditiva desenvolvido em React Native, com o objetivo de utilizar dados e inteligência para monitorar e prever condições de saúde. A plataforma oferece uma interface intuitiva e acessível para que os usuários possam acompanhar métricas relacionadas ao bem-estar, permitindo a detecção precoce de problemas e a promoção de hábitos mais saudáveis. O projeto visa integrar tecnologias móveis para fornecer soluções personalizadas e preventivas, melhorando a qualidade de vida por meio de uma abordagem proativa na saúde.",
+				"Vita Activa é um projeto de saúde preditiva em React Native, que monitora e prevê condições de saúde por meio de dados e inteligência.",
 				logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
 				linkText: "Projeto em Desenvolvimento",
 			link: "https://github.com/Vinishireis/Vita_Activa_React_Native",
@@ -53,7 +80,7 @@ const INFO = {
 		{
 			title: "AdminHub Dashboard",
 			description:
-				"AdminHub Dashboard é um design de painel elegante e moderno criado usando HTML, CSS e JavaScript. Este repositório contém o código-fonte do painel AdminHub.",
+				"AdminHub Dashboard é um design de painel elegante e moderno criado usando HTML, CSS e JavaScript.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "Visualizar esse projeto",
 			link: "https://github.com/Vinishireis/DashBoard_Responsive",
@@ -62,7 +89,7 @@ const INFO = {
 		{
 			title: "Login/SignUp Screen",
 			description:
-				"Este projeto é um aplicativo mobile simples desenvolvido em Flutter, que implementa telas de Login e Cadastro (SignUp). Ele foi projetado para fornecer uma interface intuitiva e funcional, permitindo que os usuários façam login em suas contas ou se registrem com facilidade.",
+				"Este projeto é um aplicativo mobile simples desenvolvido em Flutter, que implementa telas de Login e Cadastro (SignUp).",
 			logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/social%20icons/flutter.svg",
 			linkText: "Visualizar esse projeto",
 			link: "https://github.com/Vinishireis/SignUp-And-Login-Screen-Mobile",
@@ -71,7 +98,7 @@ const INFO = {
 		{
 			title: " Payment Card",
 			description:
-				"Payment Card feita utilizando HTML, CSS e JavaScript. O design do Payment Card é totalmente responsivo, garantindo uma experiência fluida em diferentes tamanhos de tela.",
+				"Payment Card feita utilizando HTML, CSS e JavaScript.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
 			linkText: "Visualizar esse projeto",
 			link: "https://github.com/Vinishireis/Payment_Card",
@@ -80,7 +107,7 @@ const INFO = {
 		{
 			title: "Glowy Hover Effects",
 			description: 
-			"Efeitos Glowy Hover referem-se a um conjunto de melhorias visuais aplicadas a elementos em uma página da web ou interface do usuário quando um usuário passa o mouse sobre eles. Esses efeitos são alcançados através da manipulação de propriedades CSS (Cascading Style Sheets) e às vezes envolvem a integração de JavaScript para um comportamento mais dinâmico.",
+			"Efeitos Glowy Hover referem-se a um conjunto de melhorias visuais aplicadas a elementos HTML, como botões e links.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
 			linkText: "Visualizar esse projeto",
 			link: "https://github.com/Vinishireis/Glowy-Hover-Effects",
