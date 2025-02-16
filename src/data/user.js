@@ -44,7 +44,7 @@ const INFO = {
 		{
 			title: "Dash Horizon",
 			description:
-				"Dash Horizon é um jogo endless runner desenvolvido em Unity pelo alunos Marcos Hiroshi e Vinícius Nishimura Reis, alunos da FECAP do curso Bacharelado em Ciencias da Computação.",
+				"Dash Horizon é um jogo endless runner desenvolvido em Unity pelo alunos Marcos Hiroshi e Vinícius Nishimura Reis, alunos da FECAP.",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1200px-Unity_Technologies_logo.svg.png",
 			linkText: "Visualizar esse Projeto",
 			link: "https://github.com/Vinishireis/Dash_Horizon",
@@ -53,7 +53,7 @@ const INFO = {
 		{
 			title: "OnDev React Native Project",
 			description:
-				"Este aplicativo foi desenvolvido com o objetivo de fornecer serviços fictícios nas áreas de Web Design, Desenvolvimento Mobile e Design Gráfico.",
+				"Este aplicativo foi desenvolvido com o objetivo de fornecer serviços fictícios nas áreas de Web Design e Desenvolvimento Mobile.",
 				logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
 				linkText: "Visualizar esse Projeto",
 			link: "https://github.com/Vinishireis/OnDev_App_React_Project",
@@ -62,7 +62,7 @@ const INFO = {
 		{
 			title: "Portfólio em React",
 			description:
-				"Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido utilizando a popular biblioteca React.",
+				"Reactfolio é um template de portfólio pessoal moderno e personalizável, desenvolvido com React.",
 			logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
 			linkText: "Visualizar esse Projeto",
 			link: "https://github.com/Vinishireis/Portfolio_React",
@@ -71,7 +71,7 @@ const INFO = {
 		{
 			title: "Vita Activa",
 			description:
-				"Vita Activa é um projeto de saúde preditiva em React Native, que monitora e prevê condições de saúde por meio de dados e inteligência.",
+				"Vita Activa é um projeto de saúde preditiva em React Native, que monitora e prevê condições de saúde.",
 				logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg",
 				linkText: "Projeto em Desenvolvimento",
 			link: "https://github.com/Vinishireis/Vita_Activa_React_Native",
@@ -89,7 +89,7 @@ const INFO = {
 		{
 			title: "Login/SignUp Screen",
 			description:
-				"Este projeto é um aplicativo mobile simples desenvolvido em Flutter, que implementa telas de Login e Cadastro (SignUp).",
+				"Este projeto simples desenvolvido em Flutter, que implementa telas de Login e Cadastro (SignUp).",
 			logo: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/social%20icons/flutter.svg",
 			linkText: "Visualizar esse projeto",
 			link: "https://github.com/Vinishireis/SignUp-And-Login-Screen-Mobile",
@@ -107,7 +107,7 @@ const INFO = {
 		{
 			title: "Glowy Hover Effects",
 			description: 
-			"Efeitos Glowy Hover referem-se a um conjunto de melhorias visuais aplicadas a elementos HTML, como botões e links.",
+			"Efeitos Glowy Hover. Este projeto foi feito com HTML e CSS, com efeitos visuais.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
 			linkText: "Visualizar esse projeto",
 			link: "https://github.com/Vinishireis/Glowy-Hover-Effects",
